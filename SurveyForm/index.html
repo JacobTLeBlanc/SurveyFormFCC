@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Survey Form</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+		<h1 id="title">
+			Survey Form
+		</h1>
+	<main>
+		<p id="description">
+			How can we do better?
+		</p>
+		<form id="survey-form">
+			<label for="name" id="name-label">
+				*Name: <input id="name" type="name" placeholder="Enter your name" title="Please fill out this field" required="">
+			</label>
+			<label for="email" id="email-label">
+				*Email: <input id="email" type="email" placeholder="Enter your email" title="Please fill out this field" required="">
+			</label>
+			<label for="age" id="number-label">
+				*Age: <input id="number" type="number" placeholder="Enter your age" title="Please fill out this field" min="0" max="100">
+			</label>
+			<label for="pizza">
+				Favorite Pizza? 
+				<select name="pizza" id="dropdown" title="Please select an option">
+					<option value="Cheese" name="pizza">Cheese</option>
+					<option value="Pepperoni" name="pizza">Pepperoni</option>
+					<option value="Vegetarian" name="pizza">Vegetarian</option>
+				</select>
+			</label>
+			<label for="meat">
+				Meat of choice?
+				<input type="radio" value="beef" name="meat"> Beef <br>
+				<input type="radio" value="Chicken" name="meat"> Chicken <br>
+				<input type="radio" value="Pork" name="meat"> Pork 
+			</label>
+			<label for="side">
+				Side of choice?
+				<input type="radio" value="Beans" name="side"> Beans <br>
+				<input type="radio" value="Rice" name="side"> Rice <br>
+				<input type="radio" value="Fries" name="side"> Fries 
+			</label>
+			<label for="drinks">
+				Drink(s) of choice?
+				<input type="checkbox" value="drinks"> Pepsi
+				<input type="checkbox" value="drinks"> Coke
+				<input type="checkbox" value="drinks"> 7up
+				<input type="checkbox" value="drinks"> Milk
+				<input type="checkbox" value="drinks"> Water
+			</label>
+			<label for="comments">
+				Suggestions?
+				<textarea name="" id="" cols="30" rows="3"></textarea>
+			</label>
+			<button id="submit">Submit</button>
+		</form>
+	</main>
+</body>
+</html>

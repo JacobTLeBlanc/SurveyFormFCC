@@ -1,0 +1,38 @@
+
+
+body {
+	background-color: lightgreen;
+	font-family: cursive;
+}
+
+main {
+	background-color: white;
+	width: 90%;
+	margin: auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#title {
+	text-align: center;
+}
+
+#description {
+	text-align: center;
+}
+
+#survey-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	position: relative;
+	right: 10px;
+	margin: 20px 0;
+}
+
+input {
+	position: relative;
+}
